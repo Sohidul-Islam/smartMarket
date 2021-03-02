@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.best_sellers').owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
