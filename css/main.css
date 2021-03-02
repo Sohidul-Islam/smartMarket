@@ -196,15 +196,21 @@ body {
 
 }
 
+
+
+.categories_box{
+    border:1px solid #EFEFEF;
+   
+}
+
 .categories {
     display: block;
 }
 
 .categories .categorie {
     list-style: none;
-    padding: 4px 4px;
     transition: all 0.3s ease-in;
-    padding: 4px;
+   padding: 0px 8px;
 }
 
 .categories .categorie_link {
@@ -217,7 +223,7 @@ body {
 
 .categorie:hover {
     background-color: #E23E1D;
-
+  
 }
 
 .categorie:hover .categorie_link {
@@ -226,11 +232,166 @@ body {
     transition: all 0.3s ease-in;
 }
 
-/* .smartmarket_col {
-    margin-right: 40px;
+/* .deal_of_the_week_container{
+ width: 160px;
+ height: 400px;
 } */
+.deal_of_the_week_box {
+ padding-bottom: 8px;
+ border: 2px solid #E23E1D;
+ padding: 8px;
+}
+.deal_of_the_week_container .deal_of_the_week_title h2 {
+ font-size: 10px;
+ font-weight: 600;
+}
+.deal_of_the_week_container .deal_of_the_week_title .divider {
+width: 80px;
+height: 2px;
+background-color: blue;
+}
+.deal_of_the_week_item_categories{
+ font-size:10px;
+ font-weight: 500;   
+}
+.deal_of_the_week_item_title{
+ font-size:10px;
+ font-weight: 500;
+ color: #E23E1D;   
+}
 
-/* search box */
+.deal_of_the_week_box_item .img_container {
+ width: 80px;
+}
+.deal_of_the_week_box_item .btn-box{
+    border-top: 1px solid #EFEFEF !important;
+}
+.deal_of_the_week_box_item .btn-box,
+.deal_of_the_week_box_item .btn-box .quick--view-btn {
+ opacity: 1;
+ scale: 1;
+ font-size: 10px;
+}
+
+.deal_of_the_week_box_item .pricing .price,
+.deal_of_the_week_box_item .pricing .star_icon .far
+{
+font-size: 10px;
+}
+.deal_of_the_week_box_item .pricing .star_icon{
+margin-left: 34px;
+}
+
+.deal_of_the_week_box_item .time_counter_box .divider {
+width: 100%;
+background-color: #EFEFEF;
+height: 3px;
+border-bottom: none;
+}
+.deal_of_the_week_box_item .time_counter_box .divider .percentage {
+width: 70%;
+height: 100%;
+background-color:#e23e1d;
+}
+.deal_of_the_week_box_item .time_counter_box .message_box {
+display: block;
+font-size: 10px;
+}
+.deal_of_the_week_box_item .time_counter_box .message_box{
+    display: block;
+}
+.deal_of_the_week_box_item .time_counter_box .message_box .sold_message,
+.deal_of_the_week_box_item .time_counter_box .message_box .available_message
+ {
+display:inline-block;
+font-size: 10px;
+font-weight:700;
+}
+.sold_message{
+    float: left;
+}
+.available_message {
+    float: left;
+    margin-left: 8px;
+}
+.sold_value{
+    color: #e23e1d;
+}
+.available_value {
+    color: #e23e1d;
+}
+
+.time_count{
+    display: block;
+}
+.time{
+    display: inline-block;
+     width: 30px;
+    height: 30px;
+}
+
+.time .days,
+.time .hours,
+.time .mins,
+.time .secs
+ {
+    
+    padding: 8px;
+    background-color: #F2F4FC;
+    font-size: 12px;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.time .days_label,
+.time .hours_label,
+.time .mins_label,
+.time .secs_label
+ {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.prev_next{
+    display: block;
+    padding: 20px 0px;
+}
+.prev_next a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.prev_next .prev{
+    float: left;
+}
+.prev_next .next{
+    float: right;
+}
+
+.deal_badge{
+    font-size: 8px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .searchBox_container {
     width: 100%;
     height: 50px;
@@ -244,7 +405,6 @@ body {
 .searchbox-content {
     font-size: 16px;
     color: #000;
-    border: 1px solid #9fa0a3;
     background-color: #FFFFFF;
     /* padding: 10px 0px; */
     border: 1px solid #EFEFEF;
@@ -469,7 +629,7 @@ body {
 
 .top_categories_title {
     padding-bottom: 10px;
-    border-bottom: 1px solid #b6b8be;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 .top_categories_content .owl-carousel .item h4 {
@@ -482,7 +642,7 @@ body {
 }
 
 .new_arrival_menu{
-    border-bottom: 1px solid #5e6169;
+    border-bottom: 1px solid #EFEFEF;
     padding-bottom: 10px;
 }
 
@@ -499,6 +659,12 @@ body {
 
 .arrival_card {
     width: 100%;
+}
+.arrival_card .price-through{
+    text-decoration: line-through;
+    font-size: 10px;
+    color: #000;
+    font-weight: 400;
 }
 
 
@@ -594,7 +760,7 @@ body {
 
 
 .best_sellers_title{
-   border-bottom: 1px solid #5e6169;
+   border-bottom: 1px solid #EFEFEF;
    padding-bottom: 10px;
 }
 
@@ -641,15 +807,22 @@ body {
  {
     opacity: 0;
     scale: 0;
+    visibility: hidden;
     transition: all .3s ease-in;
 }
 .best_sellers_content .best_sellers_carousel .item:hover .best_sellers_card .card-body .add_to_cart_box .icon1,
 .best_sellers_content .best_sellers_carousel .item:hover .best_sellers_card .card-body .add_to_cart_box .icon2,
 .best_sellers_content .best_sellers_carousel .item:hover .best_sellers_card .card-body .add_to_cart_box .add_to_cart_btn_box ,
-.best_sellers_content .best_sellers_carousel .item:hover .best_sellers_card .card-body .add_to_cart_box .add_to_cart_btn_box .cart-btn
+.best_sellers_content .best_sellers_carousel .item:hover .best_sellers_card .card-body .add_to_cart_box .add_to_cart_btn_box .cart-btn,
+.best_sellers_content .best_sellers_carousel .item:active .best_sellers_card .card-body .add_to_cart_box .icon1,
+.best_sellers_content .best_sellers_carousel .item:active .best_sellers_card .card-body .add_to_cart_box .icon2,
+.best_sellers_content .best_sellers_carousel .item:active .best_sellers_card .card-body .add_to_cart_box .add_to_cart_btn_box ,
+.best_sellers_content .best_sellers_carousel .item:active .best_sellers_card .card-body .add_to_cart_box .add_to_cart_btn_box .cart-btn
  {
     opacity: 1;
     scale: 1;
+    outline: none;
+      visibility: visible;
 }
 
 .icon1 {
@@ -744,4 +917,39 @@ body {
     opacity: 1;
     scale: 1;
 
+}
+
+/* Highlighting_container2 */
+/* .highlighting_container2{
+    
+}
+.highlighting_container2 .row{
+    
+}
+.highlighting_container2 .row .highlighting_2_col {
+} */
+
+.buy_now_btn {
+    background-color: #E23E1D;
+    color: #fff;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    transition: all 0.2s;
+}
+.highlighting_container2 .row .highlighting_2_col .price-through {
+    display: inline;
+    text-decoration: line-through;
+}
+.highlighting_2_title h2{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.highlighting_2_title h2 .Offers {
+    font-weight: 700;
 }
