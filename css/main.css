@@ -120,10 +120,6 @@ body {
     width: 100%;
 }
 
-.navbar {
-    margin: 0px 40px;
-    padding: 20px 0px;
-}
 
 .navbar-brand {
     width: 150px;
@@ -131,6 +127,10 @@ body {
 
 .navbar-brand img {
     width: 100%;
+}
+
+.navbar_item_container{
+    margin-left:110px;
 }
 
 .navbar-items {
@@ -210,13 +210,13 @@ body {
 .categories .categorie {
     list-style: none;
     transition: all 0.3s ease-in;
-   padding: 0px 8px;
+   padding: 8px 10px;
 }
 
 .categories .categorie_link {
     text-decoration: none;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -242,7 +242,7 @@ body {
  padding: 8px;
 }
 .deal_of_the_week_container .deal_of_the_week_title h2 {
- font-size: 10px;
+ font-size: 14px;
  font-weight: 600;
 }
 .deal_of_the_week_container .deal_of_the_week_title .divider {
@@ -251,17 +251,17 @@ height: 2px;
 background-color: blue;
 }
 .deal_of_the_week_item_categories{
- font-size:10px;
+ font-size:14px;
  font-weight: 500;   
 }
 .deal_of_the_week_item_title{
- font-size:10px;
+ font-size:16px;
  font-weight: 500;
  color: #E23E1D;   
 }
 
 .deal_of_the_week_box_item .img_container {
- width: 80px;
+ width: 120px;
 }
 .deal_of_the_week_box_item .btn-box{
     border-top: 1px solid #EFEFEF !important;
@@ -270,22 +270,22 @@ background-color: blue;
 .deal_of_the_week_box_item .btn-box .quick--view-btn {
  opacity: 1;
  scale: 1;
- font-size: 10px;
+ font-size: 16px;
 }
 
 .deal_of_the_week_box_item .pricing .price,
 .deal_of_the_week_box_item .pricing .star_icon .far
 {
-font-size: 10px;
+font-size: 12px;
 }
 .deal_of_the_week_box_item .pricing .star_icon{
-margin-left: 34px;
+float: right;
 }
 
 .deal_of_the_week_box_item .time_counter_box .divider {
 width: 100%;
 background-color: #EFEFEF;
-height: 3px;
+height: 4px;
 border-bottom: none;
 }
 .deal_of_the_week_box_item .time_counter_box .divider .percentage {
@@ -295,7 +295,6 @@ background-color:#e23e1d;
 }
 .deal_of_the_week_box_item .time_counter_box .message_box {
 display: block;
-font-size: 10px;
 }
 .deal_of_the_week_box_item .time_counter_box .message_box{
     display: block;
@@ -304,15 +303,14 @@ font-size: 10px;
 .deal_of_the_week_box_item .time_counter_box .message_box .available_message
  {
 display:inline-block;
-font-size: 10px;
+font-size: 16px;
 font-weight:700;
 }
 .sold_message{
     float: left;
 }
 .available_message {
-    float: left;
-    margin-left: 8px;
+    float: right;
 }
 .sold_value{
     color: #e23e1d;
@@ -323,11 +321,14 @@ font-weight:700;
 
 .time_count{
     display: block;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 0px;
 }
 .time{
     display: inline-block;
-     width: 30px;
-    height: 30px;
+     width: 50px;
+    height: 50px;
 }
 
 .time .days,
@@ -338,7 +339,7 @@ font-weight:700;
     
     padding: 8px;
     background-color: #F2F4FC;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 800;
     width: 100%;
     height: 100%;
@@ -351,7 +352,7 @@ font-weight:700;
 .time .secs_label
  {
     display: block;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
@@ -376,16 +377,139 @@ font-weight:700;
     font-size: 8px !important;
 }
 
+/* Events */
+
+.events{
+    padding: 6px;
+}
+.events .card-body .highlighting_2_title h2
+{
+   font-size: 16px;
+   font-weight: 500;
+}
+.events .card-body .highlighting_2_title h2 .Offers
+{
+   color: #E23E1D;
+   font-size: 700;
+}
+.events .card-body .buy_now_btn_box .buy_now_btn
+{   
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    color: #E23E1D;
+    transition: all 0.2s ease-in;
+    outline: none;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px;
+    color: #000;
+
+}
+.events .card-body .buy_now_btn_box .buy_now_btn:hover
+{   padding: 0px;
+    padding-bottom: 2px;
+    border-radius: 0px;
+    font-size: 10px;
+    outline: none;
+    color: #E23E1D;
+    border-bottom:2px solid #E23E1D ;
+    font-weight: 600;
+
+}
 
 
+.latest_product .latest_product_title{
+    padding-bottom: 8px;
+    border-bottom:1px solid #EFEFEF;
+}
+.latest_product .latest_product_title h2{
+    font-size: 14px;
+}
+.latest_product .latest_product_title .divider{
+  width: 50px;
+}
+#carouselExampleControls .carousel-inner .carousel-item .row{
+    border: 1px solid #EFEFEF;
+    padding: 4px 0px;
+}
+#carouselExampleControls .carousel-inner .carousel-item .row .col-6 .img_content{
+    display: block;
+    width: 100%;
+}
+#carouselExampleControls .carousel-inner .carousel-item .row .col-6 .img_content .img_container{
+    width: 80px;
+    margin: 0 auto;
+    
+}
+#carouselExampleControls .carousel-inner .carousel-item .row .col-6 .img_content .img_container img{
+    width: 100%;
+
+}
+#carouselExampleControls .carousel-inner .carousel-item .row .col-6 .text_content .title{
+    font-size:14px;
+    padding-right:8px ;
+    color: #000;
+    font-weight: 600;
+}
+#carouselExampleControls .carousel-inner .carousel-item .row .col-6 .text_content .pricing .price{
+     font-size:14px;
+     padding-right:8px;
+    float: left;
+    font-weight: 600;
+}
+#carouselExampleControls .carousel-inner .carousel-item .row .col-6 .text_content .pricing .price .price-through{
+    font-size:16px;
+    color: #BDBDBD;
+    text-decoration: line-through;
+    font-weight: 400;
+
+}
+
+.carousel-control-prev {
+    left: 175px !important;
+    top: -46px !important;
+}
+.carousel-control-next {
+   top: -46px !important;
+}
+.carousel-control-prev ,
+.carousel-control-next 
+{
+   width:30px;
+   height: 30px;
+   background-color: #EFEFEF;
+   
+}
+.carousel-control-prev .fas,
+.carousel-control-next .fas
+{
+   font-size:12px;
+   color: #000;
+   
+}
 
 
-
-
-
-
-
-
+.features .feature_container .feature_content .row{
+border: 1px solid #EFEFEF;
+ padding: 20px !important
+}
+.features .feature_container .feature_content .row .col-6 .feature_icon_box .icon {
+    font-size: 50px !important;
+    color: #E23E1D;
+}
+.features .feature_container .feature_content .row .col-6 .text_content .title{
+  font-size: 14px;
+  color: #E23E1D;
+  font-weight: 700;
+  margin: 0px;
+}
+.features .feature_container .feature_content .row .col-6 .text_content p{
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0px;
+  color: #646464;
+}
 
 
 
@@ -449,7 +573,7 @@ font-weight:700;
     display: inline-block;
     padding: 10px 0px;
     font-size: 12px;
-    margin-right: 40px;
+    margin-right: 10px;
 
 }
 
@@ -696,7 +820,7 @@ font-weight:700;
 .new_arrival .row .col-3 .card {
     width: 100%;
     transition: all 0.2s ease-in;
-    width: 230px !important;
+    width: 200px;
     max-height: 350px !important;
 }
 
@@ -730,7 +854,7 @@ font-weight:700;
     font-weight: 800;
     color: #E86348;
     text-align: left;
-     display: inline;
+   
 }
 
 .pricing .star_icon {
@@ -740,7 +864,7 @@ font-weight:700;
     color: #3a3737;
     font-weight: 400;
     text-align: right;
-    margin-left:40px;
+    float: right;
 }
 .pricing .star_icon .far {
     font-size: 12px;
@@ -765,13 +889,9 @@ font-weight:700;
 }
 
 .best_sellers_title h2{
-    font-size: 16px;
+    font-size: 14px;
 }
 
-
-.best_sellers_title h2{
-    font-size: 16px;
-}
 
 .best_sellers_content .best_sellers_carousel .item {
     height: auto;
@@ -827,8 +947,8 @@ font-weight:700;
 
 .icon1 {
     float: left;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     border: 1px solid #5e6169;
 
@@ -837,8 +957,8 @@ font-weight:700;
 
 .icon2 {
     float: right;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     border: 1px solid #5e6169;
     text-decoration: none;
@@ -869,7 +989,7 @@ font-weight:700;
     text-transform: capitalize;
     font-weight: 400;
     border-radius: 20px;
-    padding: 8px 16px;
+    padding: 8px 12px;
     border: none;
     transition: all 0.2s;
 }
